@@ -24,6 +24,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>io.codeleaf.authz</groupId>
+                <artifactId>authz</artifactId>
+                <version>${leaf-authn.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>io.codeleaf.common</groupId>
                 <artifactId>common</artifactId>
                 <version>${leaf-common.version}</version>
