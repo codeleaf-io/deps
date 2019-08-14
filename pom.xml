@@ -17,16 +17,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.codeleaf.authn</groupId>
-                <artifactId>authn</artifactId>
-                <version>${leaf-authn.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>io.codeleaf.authz</groupId>
-                <artifactId>authz</artifactId>
-                <version>${leaf-authn.version}</version>
+                <groupId>io.codeleaf.sec</groupId>
+                <artifactId>security</artifactId>
+                <version>${leaf-security.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
